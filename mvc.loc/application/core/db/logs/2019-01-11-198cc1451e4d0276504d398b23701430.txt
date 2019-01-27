@@ -1,0 +1,9 @@
+Time : 19:41:58
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'dsgh@sdfg.gg' for key 'email'
+Raw SQL : INSERT INTO user (first_name, last_name, birthday, report_subject, country, phone, email)
+          VALUES (?, ?, ?, ?, ?, ?, ?)
+
+Time : 19:31:14
+SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '01/09/2019' for column 'birthday' at row 1
+Raw SQL : INSERT INTO user (first_name, last_name, birthday, report_subject, country, phone, email)
+          VALUES (?, ?, ?, ?, ?, ?, ?)
